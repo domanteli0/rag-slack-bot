@@ -2,6 +2,7 @@
 .env
 .env.local
 .env.*.local
+.local
 
 # Python
 __pycache__/
@@ -14,7 +15,7 @@ ENV/
 .venv/
 
 # Vector database (regenerated on deploy)
-chroma_db/
+chroma_db*/
 
 # IDE
 .idea/
@@ -25,4 +26,3 @@ chroma_db/
 # OS
 .DS_Store
 Thumbs.db
-
